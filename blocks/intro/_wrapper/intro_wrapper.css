@@ -1,6 +1,6 @@
 .intro_wrapper {
   padding: 0 148px;
-  margin: 0 auto;  
+  margin: 0 auto 0 0;  
 }
 
 @media (max-width: 1279px) {
