@@ -8,6 +8,7 @@
   max-width: 1184px;
   background: url(../../images/rail-station.jpg) no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .cover::before {
