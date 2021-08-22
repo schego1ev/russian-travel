@@ -1,0 +1,9 @@
+.footer__links-item:not(:last-child) {
+  margin: 0 18px 0 0;
+}
+
+@media (max-width:767px) {
+  .footer__links-item:not(:last-child) {
+    margin-bottom: 32px;
+  }
+}

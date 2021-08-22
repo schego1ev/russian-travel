@@ -1,0 +1,45 @@
+.cover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  min-height: 740px;
+  max-width: 1184px;
+  background: url(../../images/rail-station.jpg) no-repeat;
+  background-size: cover;
+}
+
+.cover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(42, 44, 47, .3);
+  z-index: 1;
+}
+
+.cover:hover::before {
+  background: rgba(42, 44, 47, .8);
+  transition: linear .3s;
+}
+
+@media (max-width: 1279px) {
+  .cover {
+    min-height: 640px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .cover {
+    min-height: 480px;
+  }
+}
+
+@media (max-width: 767px) {
+  .cover {
+    min-height: 200px;
+  }
+}

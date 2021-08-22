@@ -1,0 +1,18 @@
+.places {
+  max-width: 984px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 1fr);
+  row-gap: 80px;
+}
+
+@media (max-width: 1023px) {
+  .places {
+    row-gap: 73px;
+  }  
+}
+
+@media (max-width: 767px) {
+  .places {
+    row-gap: 50px;
+  }
+}
