@@ -36,11 +36,13 @@
 @media (max-width: 1023px) {
   .cover {
     min-height: 480px;
+    padding: 0;
   }
 }
 
 @media (max-width: 767px) {
   .cover {
     min-height: 200px;
+    padding: 0;
   }
-}
+} 

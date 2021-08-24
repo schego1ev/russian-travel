@@ -3,17 +3,25 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, 1fr);
   row-gap: 80px;
-  margin: 0 auto;
+  padding: 92px 148px 0 148px;
+}
+
+@media (max-width: 1279px) {
+  .places {
+    padding: 92px 48px 0 48px; 
+  }
 }
 
 @media (max-width: 1023px) {
   .places {
     row-gap: 73px;
+    padding: 88px 24px 0 24px;
   }  
 }
 
 @media (max-width: 767px) {
   .places {
     row-gap: 50px;
+    padding: 64px 0 0 0;
   }
 }
