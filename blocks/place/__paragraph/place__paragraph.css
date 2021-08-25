@@ -10,9 +10,11 @@
 }
 
 @media (max-width: 1023px) {
-  .place__paragraph:first-child {
-    padding-bottom: 25px;
+  .place__paragraph {
     font-size: 16px;
+  }  
+  .place__paragraph:first-child {
+    padding-bottom: 25px;    
   }  
 }
 

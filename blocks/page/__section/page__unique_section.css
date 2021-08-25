@@ -1,15 +1,16 @@
-.page__unique-section {
+.page__unique_section {
     margin: 92px auto 0 auto;  
   }
   
   @media (max-width: 1023px) {
-    .page__unique-section {
+    .page__unique_section {
       margin: 90px auto 0 auto;
     }
   }
   
   @media (max-width: 767px) {
-    .page__unique-section {
+    .page__unique_section {
       margin: 66px auto 0 auto;
     }
   }
+  

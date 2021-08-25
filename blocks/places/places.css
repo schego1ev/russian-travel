@@ -1,5 +1,6 @@
 .places {
   max-width: 984px;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, 1fr);
   row-gap: 80px;
@@ -15,7 +16,7 @@
 @media (max-width: 1023px) {
   .places {
     row-gap: 73px;
-    padding: 88px 24px 0 24px;
+    padding: 88px 24px 0 24px;    
   }  
 }
 
